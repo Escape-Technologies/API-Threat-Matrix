@@ -42,7 +42,7 @@ This matrix was created by the security research team at Escape.
 Each technique is aligned with MITRE ATT&CK's framework of adversary tactics, techniques, and procedures (TTPs), structured according to:
 
 * Reconnaissance: Attackers gather information about API endpoints.
-Resource Development: Attackers acquire tokens, credentials, or tools to attack the API.
+* Resource Development: Attackers acquire tokens, credentials, or tools to attack the API.
 * Initial Access: Attackers gain entry to the API through stolen keys or exposed endpoints.
 * Execution: Techniques for injecting commands or manipulating the API's behavior.
 * Persistence: Techniques for maintaining access, such as token hijacking.
@@ -51,9 +51,9 @@ Resource Development: Attackers acquire tokens, credentials, or tools to attack 
 * Credential Access: Stealing or hijacking session tokens and other credentials.
 * Discovery: Finding hidden or undocumented API endpoints.
 * Lateral Movement: Moving between API services to access more data.
-Collection: Gathering data for exfiltration, including credential harvesting.
 * Command and Control: Using APIs for covert communication channels.
-Exfiltration: Extracting data from API endpoints.
+* Exfiltration: Extracting data from API endpoints.
+* Collection: Gathering data for exfiltration, including credential harvesting.
 * Impact: Denial of Service (DoS) attacks, data manipulation, or ransomware.
 
 
